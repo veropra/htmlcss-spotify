@@ -21,7 +21,7 @@ body {
 
 .column-left{
   width: 250px;
-  height: 500px;
+  height: 480px;
   margin-left: 20px;
   margin-right: 20px;
   padding: 10px;
@@ -40,6 +40,10 @@ ul{
 ul li a{
   font-size: 13px;
   color: #fff;
+}
+
+.list-inline{
+  padding: 50px;
 }
 
 .under-button a{
@@ -80,19 +84,42 @@ ul{
  /*COLUMN RIGHT*/
 section{
   background-image: linear-gradient(to right bottom, #343434, #28292a, #1d1f1f, #121514, #040600);
-  height: 500px;
+  height: 1000px;
   margin: 0;
 }
 
-.generi{
-  color: #fff;
-
+.up:hover{
+  text-decoration:none;
+  color: #fff;;
+  font-weight: bold;
 }
+
  h1{
    font-weight: bold;
    color: #fff;
-   margin-left: 250px;
+   margin-left: 0;
+   margin-top: 0;
  }
+
+ p{
+   color: #fff;
+   text-align: center;
+ }
+
+/*PRIME IMMAGINI*/
+.flexbox{
+  float: right;
+  width: 75%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+img{
+  padding: 10px;
+}
 /*FOOTER*/
 .play{
   background-color: #454140;
@@ -107,6 +134,7 @@ section{
   padding: 10px;
   margin-top: 10px;
 }
+
 .fa-play{
   border: 1px solid white;
   border-radius: 20px;
