@@ -14,6 +14,9 @@ body {
   width: 250px;
   margin-left: 0;
   position: fixed;
+  background-color: #000;
+  border-radius: 0;
+  border: 0;
 }
 
 .column-left{
@@ -22,10 +25,6 @@ body {
   margin-left: 20px;
   margin-right: 20px;
   padding: 10px;
-}
-
-.row{
-  background-color: #000;
 }
 
 .spotify{
@@ -59,6 +58,7 @@ ul{
 .fa-book-open{
   color: #fff;
   padding: 5px;
+  margin-top: 10px;
 }
 
 .btn-default{
@@ -78,3 +78,36 @@ ul{
   width: 200px;
 }
  /*COLUMN RIGHT*/
+section{
+  background-image: linear-gradient(to right bottom, #343434, #28292a, #1d1f1f, #121514, #040600);
+  height: 500px;
+  margin: 0;
+}
+
+.generi{
+  color: #fff;
+
+}
+ h1{
+   font-weight: bold;
+   color: #fff;
+   margin-left: 250px;
+ }
+/*FOOTER*/
+.play{
+  background-color: #454140;
+  height: 100px;
+}
+
+.fa-random,
+.fa-step-backward,
+.fa-play,
+.fa-step-forward{
+  color: #fff;
+  padding: 10px;
+  margin-top: 10px;
+}
+.fa-play{
+  border: 1px solid white;
+  border-radius: 20px;
+}
