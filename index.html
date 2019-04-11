@@ -6,12 +6,11 @@
     <title>spotify</title>
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <!--NAVBAR COLUMN LEFT-->
-  <nav class="navbar navbar-default">
+  <nav class="navbar">
     <div class="container-fluid">
       <div class="row">
         <div class="column-left">
@@ -32,29 +31,27 @@
       </div>
     </div>
   </nav>
-<!--COLUMN RIGHT-->
-<section>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-lg-12 col-md-10 col-sm-12 col-xs-12 text-center">
-        <ul class="list-inline">
-          <li><a class="list" href="#"> IN EVIDENZA</a></li>
-          <li><a class="list" href="#"> PODCAST</a></li>
-          <li><a class="list" href="#"> GENERI E MOOD</a></li>
-          <li><a class="list" href="#"> NUOVE USCITE</a></li>
-          <li><a class="list" href="#"> SCOPRI</a></li>
-        </ul>
-      </div>
+  <!--COLUMN RIGHT TOP-->
+  <div class="container">
+    <div class="top-container">
+      <ul>
+        <li><a class="list" href="#"> IN EVIDENZA</a></li>
+        <li><a class="list" href="#"> PODCAST</a></li>
+        <li><a class="list" href="#"> GENERI E MOOD</a></li>
+        <li><a class="list" href="#"> NUOVE USCITE</a></li>
+        <li><a class="list" href="#"> SCOPRI</a></li>
+      </ul>
     </div>
-    <!--PRIME IMMAGINI-->
+    <!--COLUMN RIGHT UNDER TOP-->
     <div class="row">
       <div class="flexbox">
-        <div class=" col-lg-12 col-md-10 col-sm-12 col-xs-12">
+        <div class="title">
           <h1>Caffè e Musica…cosa c’è di meglio?</h1>
         </div>
+        <div class="img-fixed">
         <div class="first-image">
           <img class="caffè"src="img/caffè.jpg">
-          <p>Una carica di espresso!</p>
+          <p>Carica di espresso!</p>
         </div>
         <div class="first-image">
           <img class="caffè"src="img/poplips.jpg">
@@ -80,46 +77,26 @@
           <img class="caffè"src="img/relax.jpg">
           <p>La vita è bella</p>
         </div>
-        <div class="col-lg-12 col-md-10 col-sm-12 col-xs-12">
-          <h1>Classifiche</h1>
+        <div class="first-image">
+          <img class="caffè"src="img/elvis.jpg">
+          <p>TOP ANNI 50</p>
         </div>
-      </div>
-      <!--IMMAGINI CLASSIFICA-->
-      <div class="row">
-        <div class="flexbox">
-          <div class="second-image">
-            <img class="caffè"src="img/elvis.jpg">
-            <p>TOP ANNI 50</p>
-          </div>
-          <div class="second-image">
-            <img class="caffè"src="img/beatles.jpg">
-            <p>TOP ANNI 60</p>
-          </div>
-          <div class="second-image">
-            <img class="caffè"src="img/queen.jpg">
-            <p>TOP ANNI 70</p>
-          </div>
-          <div class="second-image">
-            <img class="caffè"src="img/bon.jpg">
-            <p>TOP ANNI 80</p>
-          </div>
+        <div class="first-image">
+          <img class="caffè"src="img/beatles.jpg">
+          <p>TOP ANNI 60</p>
         </div>
       </div>
     </div>
+  </div>
   </section>
   <!--FOOTER-->
-  <footer class="play">
-     <div class="container">
-       <div class="row">
-         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-          <i class="fas fa-random"></i>
-          <i class="fas fa-step-backward"></i>
-          <i class="fas fa-play"></i>
-          <i class="fas fa-step-forward"></i>
-          <i class="fas fa-random"></i>
-         </div>
-       </div>
-     </div>
+  <footer class="player">
+    <i class="fas fa-random"></i>
+    <i class="fas fa-step-backward"></i>
+    <i class="fas fa-play"></i>
+    <i class="fas fa-step-forward"></i>
+    <i class="fas fa-random"></i>
    </footer>
+ </div>
 </body>
 </html>
